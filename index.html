@@ -85,6 +85,7 @@
       <li><strong>Reklam kimliği (Advertising ID):</strong> Google AdMob, reklam gösterimi ve kişiselleştirmesi amacıyla cihazınızın reklam kimliğini toplar ve reklam ortaklarıyla paylaşır. Bu, cihazınıza özgü bir tanımlayıcıdır.</li>
       <li><strong>Analitik veriler:</strong> Firebase Analytics; uygulama etkileşimlerini (oturum süresi, kullanılan özellikler, oyun içi olaylar) ve cihaz tanımlayıcılarını toplar.</li>
       <li><strong>Bildirimler:</strong> Bildirimlere izin verirseniz hatırlatmalar <strong>yalnızca cihazınızda</strong> planlanır. Sunucudan bildirim göndermiyoruz; bu amaçla hiçbir bildirim jetonu veya kimlik toplanmaz.</li>
+      <li><strong>Uzaktan kapatma ayarı:</strong> Uygulama her açılışta, acil durumda reklam, satın alma veya çark gibi özellikleri kapatabilmemiz için GitHub Pages üzerindeki küçük bir ayar dosyasını (config.json) indirir. GitHub, her web isteğinde olduğu gibi bu istekte IP adresinizi görür; biz bu isteği sizinle ilişkilendirmeyiz. Dosya yalnızca açık/kapalı değerleri içerir, kod çalıştırmaz.</li>
     </ul>
 
     <h2>2. Üçüncü Taraf Hizmetler</h2>
@@ -177,6 +178,7 @@
       <li><strong>Advertising ID:</strong> Google AdMob collects your device's advertising identifier for ad delivery and personalization, and shares it with advertising partners.</li>
       <li><strong>Analytics data:</strong> Firebase Analytics collects app interaction data (e.g., session length, feature usage, in-game events) and device identifiers.</li>
       <li><strong>Notifications:</strong> If you grant notification permission, reminders are scheduled <strong>entirely on your device</strong>. We do not send server-initiated notifications, and no notification token or identifier is collected for this purpose.</li>
+      <li><strong>Remote switch:</strong> On every launch the app downloads a small settings file (config.json) hosted on GitHub Pages so that we can switch off features such as ads, purchases or the wheel in an emergency. As with any web request, GitHub sees your IP address; we do not link this request to you. The file only contains on/off values and cannot run code.</li>
     </ul>
 
     <h2>2. Third-Party Services</h2>
